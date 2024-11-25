@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag of Laos</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .flag {
+            width: 600px;
+            height: 400px;
+            position: relative;
+        }
+
+        .red {
+            background-color: #CE1126;
+            height: 25%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .red.top {
+            top: 0;
+        }
+
+        .red.bottom {
+            bottom: 0;
+        }
+
+        .blue {
+            background-color: #002868;
+            height: 50%;
+            width: 100%;
+            position: absolute;
+            top: 25%;
+        }
+
+        .circle {
+            background-color: #FFFFFF;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .text {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .text.title {
+            top: 5%;
+            font-size: 24px;
+            color: white;
+        }
+
+        .text.circle {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="red top"></div>
+        <div class="blue"></div>
+        <div class="red bottom"></div>
+        <div class="text title">The Flag</div>
+        <div class="circle">
+            <div class="text circle">of<br>Laos</div>
+        </div>
+    </div>
+</body>
+</html>
